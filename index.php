@@ -2380,6 +2380,33 @@ foreach ($waiting_per_room as $room_id => $waitings) {
         // Panggil autoMarkWaitingDone setiap detik setelah updateCountdowns
         setInterval(autoMarkWaitingDone, 1000);
     </script>
+
+    <!-- Creator Footer -->
+    <footer style="background: white; margin-top: 60px; padding: 50px 30px; text-align: center; color: #333; border-top: 1px solid #e5e7eb; box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);">
+        <div style="max-width: 900px; margin: 0 auto;">
+            <div style="margin-bottom: 20px;">
+                <h3 style="font-size: 16px; font-weight: 700; margin: 0 0 5px 0; color: #1f2937;">
+                    SMKN 40 JAKARTA
+                </h3>
+                <p style="margin: 0; font-size: 13px; color: #6b7280; font-weight: 500;">
+                    Jurusan Rekayasa Perangkat Lunak
+                </p>
+            </div>
+
+            <div style="margin: 20px 0; padding: 20px 0; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb;">
+                <p style="margin: 0 0 12px 0; font-size: 13px; font-weight: 600; color: #1f2937; text-transform: uppercase; letter-spacing: 0.5px;">
+                    Dibuat oleh:
+                </p>
+                <p style="margin: 0; font-size: 13px; color: #4b5563; line-height: 1.8;">
+                    Langen Dimas Pramudya • Muhamad Rizki Januar • Rizki Fais Ramadhan • Barvio Nadhif Aikonara
+                </p>
+            </div>
+
+            <p style="margin: 0; font-size: 11px; color: #9ca3af;">
+                © 2026 Bilik Dialog - Perpustakaan Jakarta
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
